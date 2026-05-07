@@ -44,7 +44,7 @@
 %>
 
 <jsp:forward page="failRegister.jsp">
-    <jsp:param name="username" value="<%=username%>"/>
+    <jsp:param name="message" value="<%=message%>"/>
 </jsp:forward>
 
 <%
